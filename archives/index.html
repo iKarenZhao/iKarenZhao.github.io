@@ -6,16 +6,16 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives | Test for Hexo</title>
+  <title>Archives | Road to Nirvana</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
-<meta property="og:title" content="Test for Hexo">
+<meta property="og:title" content="Road to Nirvana">
 <meta property="og:url" content="http://yoursite.com/archives/index.html">
-<meta property="og:site_name" content="Test for Hexo">
+<meta property="og:site_name" content="Road to Nirvana">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Test for Hexo">
+<meta name="twitter:title" content="Road to Nirvana">
   
-    <link rel="alternative" href="/atom.xml" title="Test for Hexo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="Road to Nirvana" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -48,13 +48,15 @@
 		  <h1 class="header-author"><a href="/">Karen Zhao</a></h1>
 		</hgroup>
 		
+		<p class="header-subtitle">Road to Nirvana</p>
+		
 
 		<nav class="header-menu">
 			<ul>
 			
 				<li><a href="/">Front Page 主页</a></li>
 	        
-				<li><a href="/tags/随笔/">Buddha Dharma 佛法</a></li>
+				<li><a href="/">Buddha Dharma 佛法</a></li>
 	        
 				<li><a href="/">Running 跑步</a></li>
 	        
@@ -62,16 +64,14 @@
 	        
 				<li><a href="/">Executive Search</a></li>
 	        
+				<li><a href="/tags/随笔/">Random Thoughts</a></li>
+	        
 				<li><a href="/archives">All Articles 所有文章</a></li>
 	        
 			</ul>
 		</nav>
 		<nav class="header-smart-menu">
     		
-    			
-    			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
-    			
-            
     			
     			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
     			
@@ -85,6 +85,10 @@
 			<div class="social">
 				
 					<a class="github" target="_blank" href="http://github.com/ikarenzhao" title="github"><i class="icon-github"></i></a>
+		        
+					<a class="mail" target="_blank" href="mailto:ikarenzhao@qq.com" title="mail"><i class="icon-mail"></i></a>
+		        
+					<a class="linkedin" target="_blank" href="http://www.linkedin.com/in/karenzhaoqing?trk=nav_responsive_tab_profile" title="linkedin"><i class="icon-linkedin"></i></a>
 		        
 			</div>
 		</nav>
@@ -108,7 +112,11 @@
 			  <h1 class="header-author js-header-author">Karen Zhao</h1>
 			</hgroup>
 			
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>Road to Nirvana<i class="icon icon-quo-right"></i></p>
 			
+			
+			
+				
 			
 				
 			
@@ -129,6 +137,10 @@
 					
 						<a class="github" target="_blank" href="http://github.com/ikarenzhao" title="github"><i class="icon-github"></i></a>
 			        
+						<a class="mail" target="_blank" href="mailto:ikarenzhao@qq.com" title="mail"><i class="icon-mail"></i></a>
+			        
+						<a class="linkedin" target="_blank" href="http://www.linkedin.com/in/karenzhaoqing?trk=nav_responsive_tab_profile" title="linkedin"><i class="icon-linkedin"></i></a>
+			        
 				</div>
 			</nav>
 
@@ -136,17 +148,19 @@
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 16.666666666666668%"><a href="/">Front Page 主页</a></li>
+					<li style="width: 14.285714285714286%"><a href="/">Front Page 主页</a></li>
 		        
-					<li style="width: 16.666666666666668%"><a href="/tags/随笔/">Buddha Dharma 佛法</a></li>
+					<li style="width: 14.285714285714286%"><a href="/">Buddha Dharma 佛法</a></li>
 		        
-					<li style="width: 16.666666666666668%"><a href="/">Running 跑步</a></li>
+					<li style="width: 14.285714285714286%"><a href="/">Running 跑步</a></li>
 		        
-					<li style="width: 16.666666666666668%"><a href="/">Health 健康</a></li>
+					<li style="width: 14.285714285714286%"><a href="/">Health 健康</a></li>
 		        
-					<li style="width: 16.666666666666668%"><a href="/">Executive Search</a></li>
+					<li style="width: 14.285714285714286%"><a href="/">Executive Search</a></li>
 		        
-					<li style="width: 16.666666666666668%"><a href="/archives">All Articles 所有文章</a></li>
+					<li style="width: 14.285714285714286%"><a href="/tags/随笔/">Random Thoughts</a></li>
+		        
+					<li style="width: 14.285714285714286%"><a href="/archives">All Articles 所有文章</a></li>
 		        
 				</ul>
 			</nav>
@@ -259,7 +273,7 @@
 		isCategory: false,
 		open_in_new: false,
 		root: "/",
-		innerArchive: true,
+		innerArchive: false,
 		showTags: false
 	}
 </script>
@@ -280,85 +294,22 @@
       
       
     
-      
-      
-      
-    
     
 
     <ul style="width: 70%">
     
     
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
       
         
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
-      
-        
-      
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
   </div>
   <div class="tools-wrap">
-    
-    	<section class="tools-section tools-section-all" q-show="innerArchive">
-        <div class="search-wrap">
-          <input class="search-ipt" q-model="search" type="text" placeholder="find something…">
-          <i class="icon-search icon" q-show="search|isEmptyStr"></i>
-          <i class="icon-close icon" q-show="search|isNotEmptyStr" q-on="click:clearChose(e)"></i>
-        </div>
-        <div class="widget tagcloud search-tag">
-          <p class="search-tag-wording">tag:</p>
-          <label class="search-switch">
-            <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
-          </label>
-          <ul class="article-tag-list" q-show="showTags">
-            
-            <div class="clearfix"></div>
-          </ul>
-        </div>
-        <ul class="search-ul">
-          <p q-show="jsonFail" style="padding: 20px; font-size: 12px;">
-            缺失模块。<br/>1、在博客根目录（注意不是yilia根目录）执行以下命令：<br/> npm i hexo-generator-json-content --save<br/><br/>
-            2、在根目录_config.yml里添加配置：
-<pre style="font-size: 12px;" q-show="jsonFail">
-  jsonContent:
-    meta: false
-    pages: false
-    posts:
-      title: true
-      date: true
-      path: true
-      text: true
-      raw: false
-      content: false
-      slug: false
-      updated: false
-      comments: false
-      link: false
-      permalink: false
-      excerpt: false
-      categories: false
-      tags: true
-</pre>
-          </p>
-          <li class="search-li" q-repeat="items" q-show="isShow">
-            <a q-attr="href:path|urlformat" class="search-title"><i class="icon-quo-left icon"></i><span q-text="title"></span></a>
-            <p class="search-time">
-              <i class="icon-calendar icon"></i>
-              <span q-text="date|dateformat"></span>
-            </p>
-            <p class="search-tag">
-              <i class="icon-price-tags icon"></i>
-              <span q-repeat="tags" q-on="click:choseTag(e, name)" q-text="name|tagformat"></span>
-            </p>
-          </li>
-        </ul>
-    	</section>
     
 
     
@@ -367,27 +318,7 @@
         <ul class="search-ul">
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接1</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接2</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接3</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接4</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接5</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接6</a>
+              <a href="http://mindhacks.cn/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>MindHacks刘未鹏</a>
             </li>
           
         </ul>
